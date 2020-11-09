@@ -23,10 +23,18 @@ namespace TIcketObject
             StreamWriter sw = new StreamWriter(file);
 
             //Promt the user
+            
             string choice = null;
             Console.WriteLine("Would you like to search or enter a ticket?");
+            Console.WriteLine("1. Search ticket");
+            Console.WriteLine("2. Add ticket");
+            choice = Console.ReadLine();
+
+            if (choice == "1"){
+
             
 
+            }else if (choice == "2"){
 
             Console.WriteLine("Enter TicketID");
             string id = Console.ReadLine();
@@ -75,7 +83,10 @@ namespace TIcketObject
                 sw.WriteLine();
 
             }
+
+            }
             sw.Close();
+    
 
         }
     }
