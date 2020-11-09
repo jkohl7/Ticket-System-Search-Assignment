@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections;
+using System.Linq;
 
 namespace TIcketObject
 {
@@ -38,15 +39,44 @@ namespace TIcketObject
             string option = Console.ReadLine();
 
             if (option == "1"){
-                
+            Console.WriteLine("Type what you want to search for:");
+            var search = Console.ReadLine();
 
+            var status = file.Tickets.Where(t => t.status.Contains(search)).Select(t => t.status);
+            // LINQ - Count aggregation method
+            Console.WriteLine($"There are {status.Count()} movies with " + search + " in the title:");
+            foreach(string t in status)
+            {
+                Console.WriteLine($"  {t}");
+            }
 
+            }
+            else if (option == "2"){
 
-            }else if (option == "2"){
-
-
+            Console.WriteLine("Type what you want to search for:");
+            var search = Console.ReadLine();
+                  
+            var priority = file.Tickets.Where(t => t.status.Contains(search)).Select(t => t.priority);
+            // LINQ - Count aggregation method
+            Console.WriteLine($"There are {priority.Count()} movies with " + search + " in the title:");
+            foreach(string t in priority)
+            {
+                Console.WriteLine($"  {t}");
+            }
 
             }else if (option == "3"){
+
+            Console.WriteLine("Type what you want to search for:");
+            var search = Console.ReadLine();
+                  
+            var submiter = file.Tickets.Where(t => t.submiter.Contains(search)).Select(t => t.submiter);
+            // LINQ - Count aggregation method
+            Console.WriteLine($"There are {submiter.Count()} movies with " + search + " in the title:");
+            foreach(string t in submiter)
+            {
+                Console.WriteLine($"  {t}");
+            }
+
 
 
             }else{
