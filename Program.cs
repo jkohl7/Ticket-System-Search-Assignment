@@ -31,6 +31,30 @@ namespace TIcketObject
             choice = Console.ReadLine();
 
             if (choice == "1"){
+            Console.WriteLine("What do you want to search?");
+            Console.WriteLine("1. Status");
+            Console.WriteLine("2. Priority");
+            Console.WriteLine("3. Submitter");
+            string option = Console.ReadLine();
+
+            if (option == "1"){
+                
+
+
+
+            }else if (option == "2"){
+
+
+
+            }else if (option == "3"){
+
+
+            }else{
+    
+                Console.WriteLine("No option was selected");
+            }
+            
+
 
             
 
