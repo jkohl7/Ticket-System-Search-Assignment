@@ -1,0 +1,13 @@
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.exe
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.deps.json
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.runtimeconfig.json
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.runtimeconfig.dev.json
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.dll
+E:\.Net 2020\Midterm\bin\Debug\netcoreapp3.1\Midterm.pdb
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.csprojAssemblyReference.cache
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.AssemblyInfoInputs.cache
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.AssemblyInfo.cs
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.csproj.CoreCompileInputs.cache
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.dll
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.pdb
+E:\.Net 2020\Midterm\obj\Debug\netcoreapp3.1\Midterm.genruntimeconfig.cache
